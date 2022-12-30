@@ -76,12 +76,19 @@ h4 {
 
 a {
     color: var(--color-white);
+    min-height: 44px;
+    min-width: 44px;
 }
 
 img {
     width: 100%;
     display: block;
     object-fit: cover;
+}
+
+button {
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .btn { 
@@ -256,15 +263,18 @@ header {
 }
 
 .course {
-    background: var(--color-bg3);
+    background: var(--color-light);
+    color: var(--color-black);
     text-align: center;
     border: 1px solid transparent;
+    border-radius: 0.7rem;
     transition: var(--transition);
 }
 
 .course:hover {
-    background: transparent;
-    border-color: var(--color-bg3);
+    background: var(--color-black);
+    color: var(--color-light);
+    border-color: var(--color-button);
 }
 
 .course__info {
@@ -280,7 +290,7 @@ header {
 .faqs {
     background: var(--color-primary);
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
-    color: var(--color-bg3);
+    color: var(--color-bg2);
 }
 
 .faqs__container {
@@ -563,7 +573,7 @@ footer ul li a:hover {
     .container {
         width: var(--container--width-sm);
     }
-
+    
     /*================ navbar ===============*/
     .nav__menu {
         right: 3%;

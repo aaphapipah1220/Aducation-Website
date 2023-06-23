@@ -29,6 +29,20 @@
     --transition: all 400ms ease;
 }
 
+.skip-link {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    margin: 4px;
+    padding: 8px;
+    background: var(--color-button);
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.7;

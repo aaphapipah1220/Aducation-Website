@@ -90,10 +90,6 @@ input, textarea {
     cursor: pointer;
 }
 
-/* .contact__form .btn:hover {
-    color: var(--color-black);
-} */
-
 /* ============= media query (tab) ============= */
 @media screen and (max-width: 1024px) {
     .contact {
